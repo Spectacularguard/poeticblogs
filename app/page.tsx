@@ -1,8 +1,13 @@
+import Rain from "../components/Scene/Rain";
+
 export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#0B0B0D]">
-      {/* Rain Background */}
+      {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#111] via-[#0B0B0D] to-black" />
+
+      {/* Rain */}
+      <Rain />
 
       {/* Content */}
       <div className="relative z-10 flex min-h-screen items-center justify-center">
