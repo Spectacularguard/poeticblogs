@@ -1,13 +1,17 @@
-import Rain from "../components/Scene/Rain";
+import Scene from "../components/Scene/Scene";
+import Diary from "@/components/Diary/Diary";
 
 export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#0B0B0D]">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#111] via-[#0B0B0D] to-black" />
+     
+      
+      <Scene />
 
-      {/* Rain */}
-      <Rain />
+      <Diary />
+       <div className="relative z-20 flex min-h-screen items-center justify-center">
+        {/* Future UI (title, buttons, etc.) */}
+      </div>
 
       {/* Content */}
       <div className="relative z-10 flex min-h-screen items-center justify-center">
