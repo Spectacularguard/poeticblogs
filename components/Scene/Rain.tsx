@@ -10,7 +10,7 @@ const drops = Array.from({ length: 120 }, (_, i) => ({
 export default function Rain() {
   return (
     <div
-  className="absolute top-0 left-0 w-full h-[55%] overflow-hidden pointer-events-none">
+  className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
       {drops.map((drop) => (
         <span
           key={drop.id}

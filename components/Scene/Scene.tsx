@@ -1,4 +1,4 @@
-import Rain from "./Rain";
+
 import Desk from "./Desk";
 import Window from "./Window";
 
@@ -11,8 +11,6 @@ export default function Scene() {
       {/* Window */}
       <Window />   
       
-      {/* Rain */}
-      <Rain />
 
       {/* Desk */}  
       <Desk />
