@@ -10,6 +10,7 @@ export default function Scene() {
       {/* Desk */}  
       <Desk />
       
+      
       {/* Rain */}
       <Rain />
 

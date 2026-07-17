@@ -6,8 +6,8 @@ export default function Diary() {
       <Image
         src="/images/leather-cover.png"
         alt="Leather diary resting on the desk"
-        width={330}
-        height={470}
+        width={210}
+        height={330}
         preload
         className="h-auto w-[220px] sm:w-[280px] lg:w-[330px]"
       />
