@@ -17,7 +17,7 @@ export default function Home() {
       
 
       {/* Content */}
-      <div className="relative z-10 flex min-h-screen items-center justify-center">
+     {/* <div className="relative z-10 flex min-h-screen items-center justify-center">*
         <div className="text-center">
           <h1 className="text-5xl font-serif text-[#F6F1E7]">
             To Whoever Opens These Pages...
@@ -27,7 +27,7 @@ export default function Home() {
             May these words find you in a moment of peace and reflection...
           </p>
         </div>
-      </div>
+      </div>*/}
     </main>
   );
 }
