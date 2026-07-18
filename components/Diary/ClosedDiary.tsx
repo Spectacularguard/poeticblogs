@@ -9,12 +9,9 @@ type ClosedDiaryProps = {
 export default function ClosedDiary({ onOpen }: ClosedDiaryProps) {
   return (
     <button
-      onClick={() => {
-    console.log("Diary clicked");
-     alert("Diary clicked");
-     onOpen();
-    }}
-      className="absolute bottom-[4%] left-1/2 z-30 -translate-x-1/2"
+    
+    onClick={onOpen}
+    className="absolute bottom-[4%] left-1/2 z-30 -translate-x-1/2"
     >
       <Image
         src="/images/leather-cover.png"

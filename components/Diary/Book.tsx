@@ -2,19 +2,7 @@
 
 
 import HTMLFlipBook from "react-pageflip";
-import { forwardRef } from "react";
-
-const Page = forwardRef<
-  HTMLDivElement,
-  { children: React.ReactNode; pageNumber?: number }
->(({ children }, ref) => (
-  <div
-    ref={ref}
-    className="flex h-full w-full items-center justify-center bg-[#f5eddc] text-black"
-  >
-    {children}
-  </div>
-));
+import Page from "./Page";
 
 Page.displayName = "Page";
 
