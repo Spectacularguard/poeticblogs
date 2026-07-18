@@ -8,9 +8,10 @@ export default function Diary() {
 
   if (isOpen) {
     return (
-      <div className="absolute inset-0 z-40 flex items-center justify-center">
-        <div className="h-[75vh] w-[70vw] rounded-md bg-[#efe6d2] shadow-2xl">
-          {/* PageFlip will go here next */}
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
+        <div className="flex h-[70vh] w-[75vw] max-w-5xl overflow-hidden rounded-lg shadow-2xl">
+          <div className="flex-1 bg-[#f5eddc] border-r border-gray-300" />
+          <div className="flex-1 bg-[#f5eddc]" />
         </div>
       </div>
     );
