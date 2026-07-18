@@ -40,14 +40,30 @@ export default function Book() {
     {""}
 </Page>
 
-<Page>
-  <div className="flex h-full items-center justify-center">
-    <h1 className="text-5xl font-serif">My Diary</h1>
+
+  <Page>
+  <div className="flex h-full flex-col items-center justify-center">
+    <h1 className="font-serif text-5xl text-[#4A3428]">
+      My Diary
+    </h1>
+
+    <p className="mt-6 text-lg italic text-[#7A675A]">
+      A collection of poems
+    </p>
   </div>
 </Page>
 
+
 <Page>
-  Poem 1
+  
+  <h2 className="mb-8 text-center font-serif text-3xl">
+    The Girl Who Loves Rain
+  </h2>
+
+  <p className="whitespace-pre-line text-lg leading-9">
+    Your first poem goes here...
+  </p>
+
 </Page>
 
 <Page>

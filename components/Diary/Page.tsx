@@ -7,8 +7,17 @@ type PageProps = {
 const Page = forwardRef<HTMLDivElement, PageProps>(({ children }, ref) => {
   return (
     <div
-      ref={ref}
-      className="flex h-full w-full flex-col justify-center bg-[#f8f2e6] border border-[#d6c8aa] p-10 text-[#3b2f2f]"
+      className="
+     h-full
+    w-full
+    bg-[#F8F2E7]
+    border
+    border-[#D8C8A8]
+    shadow-inner
+    p-12
+    flex
+    flex-col
+    "
     >
       {children}
     </div>
