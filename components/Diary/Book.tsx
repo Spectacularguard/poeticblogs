@@ -8,17 +8,32 @@ Page.displayName = "Page";
 
 export default function Book() {
   return (
-    <HTMLFlipBook
-      width={400}
-      height={550}
-      /*size="stretch"
-      minWidth={300}
-      maxWidth={500}
-      minHeight={420}
-      maxHeight={700}*/
-      showCover
-      mobileScrollSupport
-    >
+  <HTMLFlipBook
+  className="book"
+  style={{}}
+  size="fixed"
+  width={400}
+  height={550}
+  minWidth={400}
+  maxWidth={400}
+  minHeight={550}
+  maxHeight={550}
+  startPage={0}
+  drawShadow
+  flippingTime={1000}
+  usePortrait
+  startZIndex={0}
+  autoSize
+  maxShadowOpacity={1}
+  showCover
+  mobileScrollSupport
+  clickEventForward
+  useMouseEvents
+  swipeDistance={30}
+  showPageCorners
+  disableFlipByClick={false}
+>
+
     
 <Page>
   {""}
